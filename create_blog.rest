@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjVlOTgxZTc2MGYwYWZmMThhODc4YzliZCIsImlhdCI6MTU4NzExMjE1MX0.aKDL9_SWRNjSsDaUia0mpqxa9HRYcooDCcAoTTPQHxg
+
+{
+    "title":"my5 blog",
+    "author":"Leena",
+    "url":"http://leenablog.com",
+    "likes": 10
+}
